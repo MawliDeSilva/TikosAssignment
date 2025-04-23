@@ -90,21 +90,17 @@ LIMIT 5;
 
 The following table showcase the diffrence between SQL and NoSQL database differences and their usage
 
-## 🔄 SQL vs NoSQL: A Complete Comparison
-
-| **Feature**       | **SQL Databases**                                                                 | **NoSQL Databases**                                                                                 |
-|-------------------|------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
-| **Data Model**     | Relational – data organized into tables with rows and columns.                    | Non-relational – data stored as documents, key-value pairs, wide-column stores, or graphs.          |
-| **Schema**         | Fixed schema – requires predefined structure.                                     | Flexible or schema-less – easily accommodates changes in data structure.                            |
-| **Query Language** | SQL (Structured Query Language) – standardized, powerful with JOINs.              | Varies – e.g., MongoDB (JSON queries), Cassandra (CQL), Neo4j (Cypher).                             |
-| **Scalability**    | Vertical scaling – scale up with more powerful hardware.                          | Horizontal scaling – scale out across servers/nodes.                                                 |
-| **Consistency**    | Strong ACID compliance – reliable and consistent transactions.                    | BASE model – eventual consistency (tunable in some NoSQL DBs).                                      |
-| **Relationships**  | Supports relationships via foreign keys and JOINs.                                | Uses embedded docs, references, or graph edges for relationships.                                   |
-| **Performance**    | High for structured data and complex queries, but can slow with large joins.      | High read/write performance, great for large-scale or varied structures.                            |
-| **Flexibility**    | Rigid – difficult to change schema or add new fields.                             | Very flexible – ideal for evolving data models and agile development.                               |
-| **Use Cases**      | Banking, finance, inventory, ERP, CRM – where integrity and complex queries rule. | Content management, IoT, product catalogs, mobile apps, real-time analytics and user-generated data.|
-| **Examples**       | MySQL, PostgreSQL, Oracle, SQL Server                                              | MongoDB, Cassandra, Couchbase, Firebase, Neo4j, Amazon DynamoDB                                     |
-| **When to Use**    | When your data is structured and consistency is key.                              | When you need scalability, flexibility, and fast handling of unstructured/semi-structured data.      |
-
-
+| Feature            | SQL Databases                                                                  | NoSQL Databases                                                                                  |
+|--------------------|----------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
+| Data Model         | Relational – data organized into tables with rows and columns.                  | Non-relational – data stored as documents, key-value pairs, wide-column stores, or graphs.       |
+| Schema             | Fixed schema – requires predefined structure.                                   | Flexible or schema-less – easily accommodates changes in data structure.                         |
+| Query Language     | SQL (Structured Query Language) – standardized, powerful with JOINs.            | Varies – e.g., MongoDB (JSON queries), Cassandra (CQL), Neo4j (Cypher).                          |
+| Scalability        | Vertical scaling – scale up with more powerful hardware.                        | Horizontal scaling – scale out across servers/nodes.                                              |
+| Consistency        | Strong ACID compliance – reliable and consistent transactions.                  | BASE model – eventual consistency (tunable in some NoSQL DBs).                                   |
+| Relationships      | Supports relationships via foreign keys and JOINs.                              | Uses embedded documents, references, or graph edges for relationships.                           |
+| Performance        | High for structured data and complex queries, but can slow with large joins.    | High read/write performance, great for large-scale or varied structures.                         |
+| Flexibility        | Rigid – difficult to change schema or add new fields.                           | Very flexible – ideal for evolving data models and agile development.                            |
+| Use Cases          | Banking, finance, inventory, ERP, CRM – where integrity and complex queries rule. | Content management, IoT, product catalogs, mobile apps, real-time analytics and user-generated data. |
+| Examples           | MySQL, PostgreSQL, Oracle, SQL Server                                            | MongoDB, Cassandra, Couchbase, Firebase, Neo4j, Amazon DynamoDB                                  |
+| When to Use        | When your data is structured and consistency is key.                            | When you need scalability, flexibility, and fast handling of unstructured/semi-structured data.   |
 
